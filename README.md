@@ -57,7 +57,7 @@ Android Line (缺) <br/>
 登入：<br/>
 Android (缺)<br/>
 iOS:手機 line app<br/>
-<img src="./src/img/iOS-line.PNG" height="300px" width = "170px">
+<img src="./src/img/iOS-line.PNG" height="200px" width = "150px">
 
 產出畫面：<br/>
 iOS 手機<br/>
@@ -69,5 +69,5 @@ Windows app<br/>
 <img src="./src/img/ios-line-windows-app.PNG">
 
 
-Windows line (chrome-plugin)
+Windows line (chrome-plugin)<br/>
 <img src="./src/img/ios-line-chrome-plugin.PNG">
