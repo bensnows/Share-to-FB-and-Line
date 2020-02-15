@@ -61,7 +61,7 @@ iOS:手機 line app<br/>
 
 產出畫面：<br/>
 iOS 手機<br/>
-<img src="./src/img/ios-line-ios-app.png" height="300px" width = "170px">
+<img src="./src/img/ios-line-ios-app.png" height="150px" width = "300px">
 
 
 
