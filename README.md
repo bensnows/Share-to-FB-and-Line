@@ -1,68 +1,73 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+npm install
+npm start
 
-### `yarn start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+目前預計送出的功能是推廣網頁<br/>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+功能目標設計:<br/>
+一段文字+網站連結<br/>
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+FB share <br/>
+狀況：不需申請 FB appid<br/>
 
-### `yarn build`
+電腦版本<br/>
+顯示：點按鈕後可開啟新視窗<br/>
+登入：取用 FB 網頁版本資訊 (使用者必須登入)<br/>
+<img src="./src/img/result.png" height="125px" width = "250px">
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+手機版本<br/>
+顯示：點按鈕後可開啟新視窗<br/>
+登入：取用 FB 網頁版本資訊，不與 App 連動<br/>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+===============================================================
 
-### `yarn eject`
+Line share <br/>
+狀況：不需申請 Line Appid，可點擊後產生網頁頁籤<br/>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+電腦版本<br/>
+顯示：開啟新視窗，會自動將文字網址轉成連結 & 自動增加 起源網址 (例：http://localhost:3000/  是本次 react 的網站)<br/>
+登入：需要登入 line 帳號，沒跟 電腦 Line App / Chrome-line plugin 連動<br/>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+點擊跳出新畫面(需主動登入)，會再附上一條 http://localhost:3000/ (連結產生網站)<br/>
+<img src="./src/img/Web-line.png" height="140px" width = "250px">
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+產出畫面：<br/>
+Windows (程式 v5.21.3)<br/>
+<img src="./src/img/web-line-windows-app_v5.21.3.2806.PNG" height="125px" width = "250px">
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Windows (Chrome-Plugin)(不自動生成預覽)<br/>
+<img src="./src/img/web-line-windows-chrome-plugin.PNG" height="125px" width = "250px">
 
-## Learn More
+iOS Line App<br/>
+<img src="./src/img/web-line-ios-app_true.png" height="125px" width = "250px">
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Mac Line App(不自動生成預覽)<br/>
+<img src="./src/img/web-line-Mac Line App.JPG" height="125px" width = "350px">
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Android Line (缺) <br/>
 
-### Code Splitting
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+手機版本<br/>
+顯示：跳轉到 line App 工具<br/>
 
-### Analyzing the Bundle Size
+登入：<br/>
+Android (缺)<br/>
+iOS:手機 line app<br/>
+<img src="./src/img/iOS-line.PNG" height="300px" width = "170px">
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+產出畫面：<br/>
+iOS 手機<br/>
+<img src="./src/img/ios-line-ios-app.png" height="300px" width = "170px">
 
-### Making a Progressive Web App
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-### Advanced Configuration
+Windows app<br/>
+<img src="./src/img/ios-line-windows-app.PNG">
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Windows line (chrome-plugin)
+<img src="./src/img/ios-line-chrome-plugin.PNG">

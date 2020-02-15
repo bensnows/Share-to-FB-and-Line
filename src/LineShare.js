@@ -1,10 +1,10 @@
 import React from "react";
-import SharePhoto from "./img/images.jfif";
+import SharePhoto from "./img/buttons_zh_TW/share-b.png";
 
-const FBShareButton = ({ url, quotes }) => {
+const LineShareButton = ({ url, quotes }) => {
   const clickShared = () => {
     window.open(
-      `https://facebook.com/sharer/sharer.php?u=${url}&quote=${quotes}`,
+      `http://line.naver.jp/R/msg/text/?${url}`,
       "線上客服",
       "config=width=400,height=640,toolbar=no,location=no,menubar=no,status=no"
     );
@@ -17,4 +17,4 @@ const FBShareButton = ({ url, quotes }) => {
   );
 };
 
-export default FBShareButton;
+export default LineShareButton;
