@@ -71,3 +71,10 @@ Windows app<br/>
 
 Windows line (chrome-plugin)<br/>
 <img src="./src/img/ios-line-chrome-plugin.PNG">
+
+===============================================================
+
+更新整理目錄
+<img src="./src/img/Fb-conclusion.png">
+<img src="./src/img/Line-Conclusion1.png">
+<img src="./src/img/Line-Conclusion2.png">
